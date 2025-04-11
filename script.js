@@ -1,35 +1,34 @@
-//your JS code here. If required.
 const quizData = [
   {
-    question: "What is the capital of France?",
-    a: "Berlin",
-    b: "Madrid",
-    c: "Paris",
-    d: "Lisbon",
-    correct: "c"
+    question: "Which language runs in a web browser?",
+    a: "Java",
+    b: "C",
+    c: "Python",
+    d: "JavaScript",
+    correct: "d"
   },
   {
-    question: "Which planet is known as the Red Planet?",
-    a: "Earth",
-    b: "Mars",
-    c: "Jupiter",
-    d: "Saturn",
+    question: "What does CSS stand for?",
+    a: "Central Style Sheets",
+    b: "Cascading Style Sheets",
+    c: "Cascading Simple Sheets",
+    d: "Cars SUVs Sailboats",
     correct: "b"
   },
   {
-    question: "What is 10 + 5?",
-    a: "13",
-    b: "14",
-    c: "15",
-    d: "16",
-    correct: "c"
+    question: "What does HTML stand for?",
+    a: "Hypertext Markup Language",
+    b: "Hypertext Markdown Language",
+    c: "Hyperloop Machine Language",
+    d: "Helicopters Terminals Motorboats Lamborginis",
+    correct: "a"
   },
   {
-    question: "Who wrote 'Hamlet'?",
-    a: "Charles Dickens",
-    b: "William Shakespeare",
-    c: "Jane Austen",
-    d: "Mark Twain",
+    question: "What year was JavaScript launched?",
+    a: "1996",
+    b: "1995",
+    c: "1994",
+    d: "none of the above",
     correct: "b"
   }
 ];
