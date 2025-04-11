@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="quiz-container" id="quiz">
+    <h2 id="question">Question Text</h2>
 
+    <ul>
+      <li>
+        <input type="radio" name="answer" id="a">
+        <label for="a" id="a_text">Option A</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" id="b">
+        <label for="b" id="b_text">Option B</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" id="c">
+        <label for="c" id="c_text">Option C</label>
+      </li>
+      <li>
+        <input type="radio" name="answer" id="d">
+        <label for="d" id="d_text">Option D</label>
+      </li>
+    </ul>
+
+    <button id="submit">Submit</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
+
